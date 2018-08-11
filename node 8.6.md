@@ -31,3 +31,4 @@ https://hm.baidu.com/hm.gif?cc=0&ck=1&cl=24-bit&ds=375x667&vl=667&et=0&ja=0&ln=z
 * B: window.addEventListener('message', function(e){}, false);
 * window.postMessage() 方法可以安全地实现跨源通信。通常，对于两个不同页面的脚本，只有当执行它们的页面位于具有相同的协议（通常为https），端口号（443为   https的默认值），以及主机 (两个页面的模数 Document.domain设置为相同的值) 时，这两个脚本才能相互通信。window.postMessage() 方法提供了一种受控机制来   规避此限制，只要正确的使用，这种方法就很安全。
 #### html语义化</br>
+* 使得浏览器更容易识别每个html标签中的内容和存在意义
